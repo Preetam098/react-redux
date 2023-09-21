@@ -1,0 +1,17 @@
+{
+    "benifit_title1":"FIRST BENEFIT",
+    "first_benefit":{
+        "heading":"Versatile Workspace",
+        "description":"The tool offers a virtual workspace where users can create and organize multiple worktables, each dedicated to a specific module or concept."
+    },
+    "benifit_title2":"SECOND BENEFIT",
+    "second_benefit":{
+        "heading":"Visual Editing",
+        "description":"Drag and drop elements, components, and visual assets onto the artboard. This allows for the visual creation and editing of designs without the need to write code."
+    },
+    "benifit_title3":"THIRD BENEFIT",
+    "third_benefit":{
+        "heading":"Diagrams and Flows",
+        "description":"It allows users to create flowcharts, process diagrams, and other types of visual representations to plan and communicate the logic and structure of modules."
+    }
+}

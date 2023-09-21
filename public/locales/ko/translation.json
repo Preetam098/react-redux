@@ -1,0 +1,17 @@
+{
+    "benifit_title1": "PRIMER BENEFICIO",
+    "first_benefit": {
+      "heading": "Espacio de Trabajo Versátil",
+      "description": "La herramienta ofrece un espacio de trabajo virtual donde los usuarios pueden crear y organizar múltiples mesas de trabajo, cada una dedicada a un módulo o concepto específico."
+    },
+    "benifit_title2": "SEGUNDO BENEFICIO",
+    "second_benefit": {
+      "heading": "Edición Visual",
+      "description": "Arrastre y suelte elementos, componentes y recursos visuales en el tablero. Esto permite la creación y edición visual de diseños sin necesidad de escribir código."
+    },
+    "benifit_title3": "TERCER BENEFICIO",
+    "third_benefit": {
+      "heading": "Diagramas y Flujos",
+      "description": "Permite a los usuarios crear diagramas de flujo, diagramas de procesos y otros tipos de representaciones visuales para planificar y comunicar la lógica y estructura de los módulos."
+    }
+  }
