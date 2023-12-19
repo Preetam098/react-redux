@@ -7,6 +7,7 @@ import Navbar from './components/Navbar'
 import Cart from "./components/Cart";
 import Contact from "./components/Contact";
 import Login from './components/Login';
+import Charts from './components/Charts';
 
 
 function App() {
@@ -18,6 +19,8 @@ function App() {
           <Route path="cart" element={<> <Navbar/><Cart /> </>} />
           <Route path="contact" element={<> <Navbar/><Contact /> </>} />
            <Route path="layout" element={<> <Navbar/><Layout /> </>} />
+           <Route path="chart" element={<> <Navbar/><Charts /> </>} />
+
       </Routes>
     </>
   );

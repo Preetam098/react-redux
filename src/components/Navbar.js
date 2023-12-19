@@ -9,6 +9,7 @@ const navigation = [
   { name: 'Cart', href: '/cart', current: false },
   { name: 'Layout', href: '/layout', current: false },
   { name: 'Contact', href: '/contact', current: false },
+  { name: 'Charts', href: '/chart', current: false },
 ]
 
 function classNames(...classes) {
@@ -16,9 +17,6 @@ function classNames(...classes) {
 }
 
 export default function Navbar() {
-
-
-
 
   return (
    <>
