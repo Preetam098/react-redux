@@ -3,9 +3,9 @@ import { useNavigate } from 'react-router-dom';
 import SimpleReactValidator from 'simple-react-validator';
 
 const Login = () => {
-  const validator = new SimpleReactValidator();
+  const validator = new SimpleReactValidator({});
 const [formInput, setFormInput] = useState({})
-const [error , setError] = useState({})
+const [error , setError] = useState("")
 const navigate =useNavigate()
 
   const handleChange = (event) => {
@@ -20,19 +20,15 @@ const navigate =useNavigate()
     navigate('/home')
     } else {
     setError(validator.errorMessages)
-      // rerender to show messages for the first time
-      // you can use the autoForceUpdate option to do this automatically`
     }
   }
- 
   return (
    <>
-   
-   <div class="flex w-full max-w-sm mx-auto my-28 overflow-hidden bg-white rounded-lg shadow-lg dark:bg-gray-800 lg:max-w-4xl">
-    <div class="hidden bg-cover lg:block lg:w-1/2" style={{backgroundImage: "url('https://images.unsplash.com/photo-1606660265514-358ebbadc80d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1575&q=80')"}}>
+   <div class="flex w-full h-screen overflow-hidden bg-white rounded-lg shadow-lg dark:bg-gray-800 ">
+    <div class="hidden bg-cover lg:block lg:w-2/3" style={{backgroundImage: "url('https://images.unsplash.com/photo-1606660265514-358ebbadc80d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1575&q=80')"}}>
     </div>
 
-    <div class="w-full px-6 py-8 md:px-8 lg:w-1/2">
+    <div class="w-1/3 px-6 py-8 md:px-8 lg:w-1/2">
         <div class="flex justify-center mx-auto">
             <img class="w-auto h-7 sm:h-8" src="https://merakiui.com/images/logo.svg" alt="" />
         </div>

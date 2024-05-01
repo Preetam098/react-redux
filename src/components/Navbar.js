@@ -6,10 +6,17 @@ import { useDispatch, useSelector } from "react-redux";
 
 const navigation = [
   { name: 'Home', href: '/home', current: true },
+  { name: 'useMemo', href: '/useMemo', current: false },
+  { name: 'useContext', href: '/useContext  ', current: false },
   { name: 'Cart', href: '/cart', current: false },
   { name: 'Layout', href: '/layout', current: false },
-  { name: 'Contact', href: '/contact', current: false },
   { name: 'Charts', href: '/chart', current: false },
+  { name: 'Project', href: '/project', current: false },
+  { name: 'Crud', href: '/crud', current: false },
+  { name: 'Remove', href: '/remove', current: false },
+
+
+
 ]
 
 function classNames(...classes) {
