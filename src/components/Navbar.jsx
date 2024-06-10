@@ -2,29 +2,19 @@ import React from 'react'
 import { Fragment } from 'react'
 import { Disclosure, Menu, Transition } from '@headlessui/react'
 import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
-import { useDispatch, useSelector } from "react-redux";
 
 const navigation = [
   { name: 'Home', href: '/home', current: true },
   { name: 'useMemo', href: '/useMemo', current: false },
-  { name: 'useContext', href: '/useContext  ', current: false },
-  { name: 'Cart', href: '/cart', current: false },
   { name: 'Layout', href: '/layout', current: false },
   { name: 'Charts', href: '/chart', current: false },
-  { name: 'Project', href: '/project', current: false },
-  { name: 'Crud', href: '/crud', current: false },
-  { name: 'Remove', href: '/remove', current: false },
-
-
-
+  { name: 'Search', href: '/search', current: false },
 ]
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
 }
-
 export default function Navbar() {
-
   return (
    <>
     <Disclosure as="nav" className="bg-gray-800">

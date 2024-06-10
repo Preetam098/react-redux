@@ -3,6 +3,7 @@ import Chart from "react-apexcharts";
 import "../App.css";
 
 function Charts() {
+  
   const [state] = useState({
     options : {
         chart: {

@@ -1,5 +1,12 @@
 import React from "react";
 
+
+
+// OnPageChange
+// const handleParams = (value)=>{
+//   setParams({...params , page:value})
+// }
+
 const Pagination = ({ onPageChange, productList }) => {
   const currentPage = productList?.current_page;
   const lastPage = productList?.last_page;
@@ -12,7 +19,7 @@ const Pagination = ({ onPageChange, productList }) => {
           key={i}
           className={` rounded-md ${
             i === currentPage
-              ? "active bg-primary text-white"
+              ? "active bg-black text-white"
               : "hover:border-gray-300  hover:border text-secondary"
           }`}
         >
@@ -21,7 +28,7 @@ const Pagination = ({ onPageChange, productList }) => {
             title={`Page ${i}`}
             onClick={() => onPageChange(i)}
             className={`inline-flex items-center justify-center w-8 h-8 text-sm font-semibold border rounded shadow-md bg-gray-50  ${
-              i === currentPage && "text-primary border-primary"
+              i === currentPage && "text-black border-black"
             }`}
           >
             {i}
