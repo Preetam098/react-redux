@@ -1,7 +1,5 @@
 import React from "react";
 
-
-
 // OnPageChange
 // const handleParams = (value)=>{
 //   setParams({...params , page:value})

@@ -14,7 +14,6 @@ const Search = () => {
     }
   };
 
-
  const handleSearch = (value) => {
     setSearchTerm(value);
   };

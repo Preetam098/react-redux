@@ -8,6 +8,7 @@ import UseMemo from "./components/Hooks/useMemo";
 import Login from './components/Login';
 import Charts from './components/Charts';
 import Search from './components/searchBar/search';
+import AddMultiple from './components/add-multi';
 
 function App() {
   return (
@@ -19,6 +20,8 @@ function App() {
            <Route path="layout" element={<> <Navbar/><Layout /> </>} />
            <Route path="chart" element={<> <Navbar/><Charts /> </>} />
            <Route path="search" element={<> <Navbar/><Search /> </>} />
+           <Route path="add-multiple" element={<> <Navbar/><AddMultiple /> </>} />
+
       </Routes>
     </>
   );

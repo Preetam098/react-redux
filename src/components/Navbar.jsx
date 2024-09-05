@@ -9,6 +9,8 @@ const navigation = [
   { name: 'Layout', href: '/layout', current: false },
   { name: 'Charts', href: '/chart', current: false },
   { name: 'Search', href: '/search', current: false },
+  { name: 'Add multiple', href: '/add-multiple', current: false },
+
 ]
 
 function classNames(...classes) {

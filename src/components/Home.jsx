@@ -19,15 +19,11 @@ const Home = () => {
       // }
     } else {
       const { value } = e.target;
-     
       setFormInput({ ...formInput, [name]: value });
     }
-  };
-
-
-  console.log("from" , formInput)
+  }
  
- 
+
 
 
   const handleSubmit = async (e) => {
@@ -44,6 +40,7 @@ const Home = () => {
     //   console.error('Error uploading file', error);
     // }
   };
+
   return (
     <div>
       <input      
